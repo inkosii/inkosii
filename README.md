@@ -17,7 +17,7 @@ I also explore Python, data engineering, visualization, and deployment tools to 
 
 ---
 
-## 🧰 Tech Stack
+## ☕ Tech Stack
 
 ### 💻 Languages & Tools I Use
 <p align="center">
@@ -58,7 +58,7 @@ This allowed me to build a multi-layered analysis that goes beyond simple “sta
 
 ---
 
-## ⚡ Project Highlights
+## 🚧 Project Highlights
 
 ### 📈 **1. Statistical & Time-Series Modelling**
 Using Python and applied math concepts, I explored:
@@ -103,8 +103,8 @@ This turned the research into a **professional, user-friendly tool** anyone can 
 
 If you'd like to collaborate or discuss ideas:
 
-📧 Email: *(add one if you want)*  
-📍 GitHub: **username**
+📧 Email: *snenkosi41@gmail.com*  
+📍 GitHub: **(https://github.com/inkosii/inkosii)**
 
 ---
 
