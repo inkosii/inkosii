@@ -1,52 +1,111 @@
-<h1 align="center">Hey 👋What's Up? I am Sinenhlahla Nkosi</h1>
+<!-- Profile Header Image -->
+<p align="center">
+  <img src="my_image.png" alt="Profile banner" width="100%">
+</p>
 
-###
+<h1 align="center">Hi there, I'm <strong>Sinenhlahla Qiniso Nkosi</strong> 🌼</h1>
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=ts" height="60" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=nextjs" height="60" alt="nextjs logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=tailwind" height="60" alt="tailwindcss logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg" height="60" alt="storybook logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=graphql" height="60" alt="graphql logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=go" height="60" alt="go logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=rust" height="60" alt="rust logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=nestjs" height="60" alt="nestjs logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=py" height="60" alt="python logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=aws" height="60" alt="amazonwebservices logo"  />
-</div>
+---
 
-###
+## 😊 About Me
 
-<div align="center">
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
-  <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"  />
-  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="discord logo"  />
-  <img src="https://img.shields.io/static/v1?message=Twitch&logo=twitch&label=&color=9146FF&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitch logo"  />
-  <img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="devto logo"  />
-</div>
+I’m a passionate **Java developer** with a strong foundation built through a **BSc in Applied Mathematics and Computer Science**.  
+My academic background trained me to think logically, solve complex problems, and approach software development with mathematical precision and creativity.
 
-###
+Java is more than just my main language, **it’s my craft**, the tool I enjoy using to build scalable systems, backend APIs, simulations, and real-world solutions.  
+I also explore Python, data engineering, visualization, and deployment tools to bring full ideas to life.
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=maurodesouza&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-  <img src="https://github-profile-trophy.vercel.app?username=maurodesouza&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
-</div>
+---
 
-###
+## 🧰 Tech Stack
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph.svg">
-</picture>
+### 💻 Languages & Tools I Use
+<p align="center">
+  
+  <!-- Programming Languages -->
+  <img src="https://skillicons.dev/icons?i=java,python,javascript,html,css" /><br>
 
-###
+  <!-- Tools & Frameworks -->
+  <img src="https://skillicons.dev/icons?i=docker,git,github" /><br>
+
+  <!-- ML/Data Analysis -->
+  <img src="https://skillicons.dev/icons?i=py" /><br>
+  
+  <!-- Platforms -->
+  <img src="https://skillicons.dev/icons?i=colab" />  
+</p>
+
+I also frequently build apps using **Streamlit**, **Gradio**, and general Python data-science workflows.
+
+---
+
+## 📊 Featured Project: **Eskom Load Shedding Impact Analysis**
+
+One of my most important and insightful projects explores how **load shedding affects South Africa’s economy**, energy distribution, and household activity patterns.
+
+### 🔍 **Where the Data Came From**
+To ensure accuracy and credibility, I sourced the dataset directly from **StatsSA**, South Africa’s national statistical service.  
+StatsSA provides open datasets on energy consumption, economic activity, municipal performance, household surveys, and sector-specific statistics.  
+From these, I curated:
+
+- Electricity generation + distribution data  
+- Sectoral GDP indicators  
+- Time-series data matching load-shedding stages  
+- Municipal energy usage  
+- Household activity indicators  
+
+This allowed me to build a multi-layered analysis that goes beyond simple “stage tracking.”
+
+---
+
+## ⚡ Project Highlights
+
+### 📈 **1. Statistical & Time-Series Modelling**
+Using Python and applied math concepts, I explored:
+
+- Correlations between load-shedding intensity and economic output  
+- Seasonal patterns vs crisis-driven spikes  
+- Regression-based GDP impact estimation  
+- Predictive modelling for stage escalation  
+
+### 🧮 **2. Mathematical Approach**
+With your background in Applied Mathematics, you implemented:
+
+- Linear and multivariate regressions  
+- Error modelling  
+- Data normalisation and smoothing  
+- Rolling window time-series analysis  
+- Forecast confidence intervals  
+
+This gave the project analytical depth that typical load-shedding dashboards don’t have.
+
+### 🏗️ **3. Application Development**
+Finally, you wrapped the analysis in an interactive application built using:
+
+- **Streamlit** for dashboards and charts  
+- **Gradio** for lightweight demos  
+- **Docker** for containerised deployment  
+
+This turned the research into a **professional, user-friendly tool** anyone can explore.
+
+---
+
+## 🌱 What I’m Focused on Now
+
+- Advancing my **Java backend development** skills  
+- Expanding into **data engineering + distributed systems**  
+- Building analytics tools that blend **math, code, and real-world problems**  
+- Improving my GitHub portfolio with polished projects
+
+---
+
+## 📫 Contact
+
+If you'd like to collaborate or discuss ideas:
+
+📧 Email: *(add one if you want)*  
+📍 GitHub: **username**
+
+---
+
+<p align="center">Thank you for visiting my profile! ⭐</p>
