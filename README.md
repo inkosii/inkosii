@@ -1,6 +1,6 @@
 <!-- Profile Header Image -->
 <p align="center">
-  <img src="my_image.png" alt="Profile banner" width="100%">
+  <img src="github_image.JPG" alt="Profile banner" width="100%">
 </p>
 
 <h1 align="center">Hi there, I'm <strong>Sinenhlahla Qiniso Nkosi</strong> 🌼</h1>
@@ -9,11 +9,14 @@
 
 ## 😊 About Me
 
-I’m a passionate **Java developer** with a strong foundation built through a **BSc in Applied Mathematics and Computer Science**.  
-My academic background trained me to think logically, solve complex problems, and approach software development with mathematical precision and creativity.
+I’m a passionate **Java developer** with a solid academic foundation through a  
+**BSc in Applied Mathematics and Computer Science**.
 
-Java is more than just my main language, **it’s my craft**, the tool I enjoy using to build scalable systems, backend APIs, simulations, and real-world solutions.  
-I also explore Python, data engineering, visualization, and deployment tools to bring full ideas to life.
+My degree shaped the way I think — logically, analytically, and creatively — allowing me to approach software development with mathematical precision.  
+
+Java is more than just a programming language to me;  
+**it’s the craft I use to build scalable systems, backend logic, and real-world solutions.**  
+I also use Python for data analysis, forecasting, visualization, and rapid app building.
 
 ---
 
@@ -25,7 +28,7 @@ I also explore Python, data engineering, visualization, and deployment tools to 
   <!-- Programming Languages -->
   <img src="https://skillicons.dev/icons?i=java,python,javascript,html,css" /><br>
 
-  <!-- Tools & Frameworks -->
+  <!-- Tools -->
   <img src="https://skillicons.dev/icons?i=docker,git,github" /><br>
 
   <!-- ML/Data Analysis -->
@@ -35,76 +38,115 @@ I also explore Python, data engineering, visualization, and deployment tools to 
   <img src="https://skillicons.dev/icons?i=colab" />  
 </p>
 
-I also frequently build apps using **Streamlit**, **Gradio**, and general Python data-science workflows.
+I frequently develop interactive apps using **Streamlit**, **Gradio**, and Python’s data-science stack.
 
 ---
 
-## 📊 Featured Project: **Eskom Load Shedding Impact Analysis**
+# 📊 Featured Project (Primary):  
+# **Eskom Load Shedding Impact Analysis**
 
-One of my most important and insightful projects explores how **load shedding affects South Africa’s economy**, energy distribution, and household activity patterns.
+A deep, data-driven exploration of how **load shedding affects South Africa’s economy**, municipal energy usage, and household activity patterns.
 
-### 🔍 **Where the Data Came From**
-To ensure accuracy and credibility, I sourced the dataset directly from **StatsSA**, South Africa’s national statistical service.  
-StatsSA provides open datasets on energy consumption, economic activity, municipal performance, household surveys, and sector-specific statistics.  
-From these, I curated:
+This is one of my most meaningful projects because it blends:
+✔ Applied Mathematics  
+✔ Data analysis  
+✔ Real-world South African challenges  
+✔ Visual, interactive apps  
 
-- Electricity generation + distribution data  
-- Sectoral GDP indicators  
-- Time-series data matching load-shedding stages  
+---
+
+## 🔍 Data Collection — From StatsSA
+
+All datasets were sourced directly from **StatsSA**, including:
+
+- Electricity generation & distribution  
 - Municipal energy usage  
-- Household activity indicators  
+- Sectoral GDP contributions  
+- Household activity datasets  
+- Time-series datasets aligned with load-shedding events  
 
-This allowed me to build a multi-layered analysis that goes beyond simple “stage tracking.”
+This ensures the analysis is **accurate, high-quality, and nationally representative**.
 
 ---
 
 ## 🚧 Project Highlights
 
-### 📈 **1. Statistical & Time-Series Modelling**
-Using Python and applied math concepts, I explored:
+### 📈 **1. Statistical & Time-Series Modeling**
+I implemented:
 
-- Correlations between load-shedding intensity and economic output  
-- Seasonal patterns vs crisis-driven spikes  
-- Regression-based GDP impact estimation  
-- Predictive modelling for stage escalation  
+- Load-shedding intensity vs economic output correlations  
+- Time-series decomposition  
+- Rolling window forecasts  
+- Regression-based impact estimation  
+- Seasonality + crisis pattern detection  
 
-### 🧮 **2. Mathematical Approach**
-With your background in Applied Mathematics, you implemented:
+### 🧮 **2. Mathematical Rigor**
+Leveraging my Applied Math background, I used:
 
-- Linear and multivariate regressions  
-- Error modelling  
-- Data normalisation and smoothing  
-- Rolling window time-series analysis  
-- Forecast confidence intervals  
-
-This gave the project analytical depth that typical load-shedding dashboards don’t have.
+- Multivariate regression  
+- Error propagation models  
+- Signal smoothing  
+- Normalization + detrending  
+- Confidence interval forecasting  
 
 ### 🏗️ **3. Application Development**
-Finally, you wrapped the analysis in an interactive application built using:
+To make the research accessible:
 
-- **Streamlit** for dashboards and charts  
-- **Gradio** for lightweight demos  
-- **Docker** for containerised deployment  
+- **Streamlit dashboards** (interactive charts, sliders, filters)  
+- **Gradio demos** (lightweight previews)  
+- **Docker containerization** (portable and deployable)  
 
-This turned the research into a **professional, user-friendly tool** anyone can explore.
+This turned complex research into a **user-friendly analytics tool**.
 
 ---
 
-## 🌱 What I’m Focused on Now
+# 🚖 Secondary Project:  
+# **South African Taxi Fare & Route App** (Summary)
 
-- Advancing my **Java backend development** skills  
-- Expanding into **data engineering + distributed systems**  
-- Building analytics tools that blend **math, code, and real-world problems**  
-- Improving my GitHub portfolio with polished projects
+<p align="center">
+  <img src="my_taxi_app.JPG" alt="Taxi App Demo" width="80%">
+</p>
+
+A modern, browser-based application built to bring **clarity, safety, and digital convenience** to the South African minibus taxi system.  
+Designed with a clean UI inspired by real taxi-rank experiences.
+
+---
+
+## 🌟 Key Features (Short Summary)
+
+- 🔍 **Fare Search** with autocomplete + voice search  
+- 🪑 **Seat Selection** using a full SVG taxi layout  
+- 📱 **QR-Based Payment** screens  
+- 🧭 **Taxi Rank Navigation** with route lookup  
+- 🛡️ **Safety Zone** (tips + emergency numbers)  
+- 📞 **Contact & Report Pages**  
+- 🎨 Clean, authentic SA-inspired UI design  
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML, CSS, JavaScript**  
+- **JSON files** for route & fare data  
+- **SVG graphics** for seat layouts  
+
+This app aims to bring **structure to a transport system millions rely on**, improving accessibility and safety for everyday commuters.
+
+---
+
+## 🌱 Current Focus
+
+- Advancing my **Java backend development**  
+- Growing in **data engineering & distributed systems**  
+- Building tools that blend **math + software + real-world impact**  
+- Expanding my portfolio with polished, professional projects  
 
 ---
 
 ## 📫 Contact
 
-If you'd like to collaborate or discuss ideas:
-
-📧 Email: *snenkosi41@gmail.com*  
-📍 GitHub: **(https://github.com/inkosii/inkosii)**
+📧 Email: **snenkosi41@gmail.com**  
+🔗 GitHub: **https://github.com/inkosii/inkosii**
 
 ---
 
