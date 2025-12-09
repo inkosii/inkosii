@@ -1,170 +1,120 @@
-<!-- Profile Header Image -->
+<!-- ====================================================== -->
+<!--                       ASCII BANNER                     -->
+<!--                       (INKOSII)                        -->
+<!-- ====================================================== -->
 <p align="center">
-  <img src="github_image.JPG" alt="Profile banner" width="100%">
+<pre>
+  ____   _                      _      _         _      _         
+ / ___| (_) _ __    ___  _ __  | |__  | |  __ _ | |__  | |  __ _  
+ \___ \ | || '_ \  / _ \| '_ \ | '_ \ | | / _` || '_ \ | | / _` | 
+  ___) || || | | ||  __/| | | || | | || || (_| || | | || || (_| | 
+ |____/ |_||_| |_| \___||_| |_||_| |_||_| \__,_||_| |_||_| \__,_| 
+   ___   _         _                  _   _  _                _   
+  / _ \ (_) _ __  (_) ___   ___      | \ | || | __ ___   ___ (_)  
+ | | | || || '_ \ | |/ __| / _ \     |  \| || |/ // _ \ / __|| |  
+ | |_| || || | | || |\__ \| (_) |    | |\  ||   <| (_) |\__ \| |  
+  \__\_\|_||_| |_||_||___/ \___/     |_| \_||_|\_\\___/ |___/|_|  
+                                                                  
+                                                                               
+                                   
+</pre>
 </p>
 
-<h1 align="center">Hi there, I'm <strong>Name Surname</strong> 🌼</h1>
 
----
-
-## 😊 About Me
-
-I’m a passionate **Java developer** with a solid academic foundation through a  
-**BSc in Applied Mathematics and Computer Science**.
-
-My degree shaped the way I think — logically, analytically, and creatively —  
-allowing me to approach software development with mathematical precision.  
-
-Java isn’t just a language for me —  
-**it’s my craft**, the tool I use to build scalable systems, backend logic, and analytical applications.  
-I also develop data-driven solutions in Python, using visualization and modeling tools to explore real-world problems.
-
----
-
-## ☕ Tech Stack
-
-### 💻 Languages & Tools I Use
+<!-- ====================================================== -->
+<!--                      HEADER BANNER                     -->
+<!-- ====================================================== -->
 <p align="center">
-  
-  <!-- Programming Languages -->
-  <img src="https://skillicons.dev/icons?i=java,python,javascript,html,css" /><br>
-
-  <!-- Tools -->
-  <img src="https://skillicons.dev/icons?i=docker,git,github" /><br>
-
-  <!-- ML/Data Analysis -->
-  <img src="https://skillicons.dev/icons?i=py" /><br>
-
-  <!-- Platforms -->
-  <img src="https://skillicons.dev/icons?i=colab" />
+  <img src="github_image.JPG" alt="Profile Banner" width="100%">
 </p>
 
-I frequently build interactive data apps using **Streamlit**, **Gradio**, and Python’s scientific ecosystem.
+<!-- ====================================================== -->
+<!--                    ANIMATED JOKE (under image)         -->
+<!-- Uses the readme-typing-svg service to animate typing   -->
+<!-- ====================================================== -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=800&center=true&vCenter=true&width=760&height=70&lines=How+do+robots+eat+pizza%3F;A.+One+byte+at+a+time+%F0%9F%8D%95%F0%9F%A4%96" alt="typing joke"/>
+</p>
 
 ---
 
-# 🎮 Pac-Man Contribution Animation
+<h2 align="center">About Me 🌼</h2>
 
+Hello! **Sinenhlahla Qiniso Nkosi**: a **Junior Software Developer** with a **BSc in Applied Mathematics & Computer Science**.  
+I build backend systems and analytical tools with clear structure, elegant logic, and a little bit of flair.  
+Java is my main craft; I combine it with Python for data and Streamlit/Gradio for interactive demos.
+
+---
+
+<!-- ====================================================== -->
+<!--                    PAC-MAN (under About Me)            -->
+<!-- Dark theme pacman included (will appear after workflow) -->
+<!-- ====================================================== -->
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/${GITHUB_USERNAME}/${GITHUB_USERNAME}/output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/${GITHUB_USERNAME}/${GITHUB_USERNAME}/output/pacman-contribution-graph.svg">
-    <img alt="Pac-Man Contribution Animation" src="https://raw.githubusercontent.com/${GITHUB_USERNAME}/${GITHUB_USERNAME}/output/pacman-contribution-graph.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/inkosii/inkosii/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/inkosii/inkosii/output/pacman-contribution-graph.svg">
+    <img src="https://raw.githubusercontent.com/inkosii/inkosii/output/pacman-contribution-graph-dark.svg" alt="Pac-Man Contribution Animation (dark)" width="85%">
   </picture>
 </p>
 
-> 🎉 *This Pac-Man animation automatically updates every 12 hours using GitHub Actions!*
+<!-- small separator -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 
----
-
-# 📊 Featured Project (Primary):  
-# **Eskom Load Shedding Impact Analysis**
-
-A deep, data-driven exploration of how **load shedding affects South Africa’s economy**,  
-municipal energy usage, and household activity patterns.
-
-This project blends:
-
-✔ Applied Mathematics  
-✔ Statistical modeling  
-✔ Real-world South African data  
-✔ Interactive visual applications  
-
----
-
-## 🔍 Data Collection — From StatsSA
-
-All datasets were sourced directly from **StatsSA**, including:
-
-- Electricity generation & distribution  
-- Municipal energy usage datasets  
-- Sectoral GDP indicators  
-- Household energy/activity datasets  
-- Time-series data aligned to load-shedding cycles  
-
-Using national-level datasets ensures **accuracy, credibility, and analytical depth**.
-
----
-
-## 🚧 Project Highlights
-
-### 📈 **1. Time-Series & Statistical Modeling**
-I implemented:
-
-- Correlation analysis (load-shedding severity vs GDP impact)  
-- Time-series decomposition  
-- Rolling window forecasting  
-- Regression-based impact modeling  
-- Seasonal cycle detection  
-
-### 🧮 **2. Mathematical Foundations**
-Based on my Applied Math training, I used:
-
-- Multivariate regression  
-- Smoothing & detrending  
-- Normalization  
-- Error modeling  
-- Confidence interval forecasting  
-
-### 🏗️ **3. Application Layer**
-To make insights accessible:
-
-- **Streamlit dashboards**  
-- **Gradio demos**  
-- **Dockerized builds** for deployment  
-
-This transformed complex analysis into a **user-friendly, interactive energy insights tool**.
-
----
-
-# 🚖 Secondary Project:  
-# **South African Taxi Fare & Route App** (Summary)
-
+## Tech Stack & Tools
 <p align="center">
-  <img src="my_taxi_app.JPG" alt="Taxi App Demo" width="80%">
+  <img src="https://skillicons.dev/icons?i=java,python,javascript,html,css" /><br>
+  <img src="https://skillicons.dev/icons?i=docker,git,github,py,colab" />
 </p>
 
-A modern, browser-based application bringing **structure, clarity, and convenience** to the South African minibus taxi system.  
-Inspired by the real taxi-rank look and feel — clean, bold, and authentic.
+## Skills Matrix
 
----
+| Domain | Skills |
+|---|---|
+| Backend | Java, OOP, REST APIs, Unit Testing |
+| Data & Analysis | Python, Pandas, NumPy, Time-series |
+| UI & Web | HTML5, CSS3, JavaScript, Streamlit |
+| DevOps | Docker, Git, CI/CD |
+| Soft | System design thinking, problem solving, quantitative reasoning |
 
-## 🌟 Key Features (Short Summary)
 
-- 🔍 **Fare Search** (autocomplete + voice search)  
-- 🪑 **Seat Selection** (SVG-based taxi layout)  
-- 📱 **QR Payment Screen**  
-- 🧭 **Rank Navigation** + routes  
-- 🛡️ **Safety Zone** (tips + emergency numbers)  
-- 📞 **Contact & Report Forms**  
-- 🎨 A modern SA-style UI  
+<!-- ====================================================== -->
+<!--                   GEAR-SPINNER ANIMATION               -->
+<!-- Simulated with typing-svg cycling frames for effect    -->
+<!-- ====================================================== -->
 
----
 
-## 🛠️ Tech Stack
+## Featured Project — Eskom Load Shedding Impact Analysis
 
-- **HTML, CSS, JavaScript**  
-- **JSON sheets** for fare & route data  
-- **SVG graphics** for seat plans  
+**Goal:** Quantify and visualize how load-shedding affects economic output, municipal demand, and household behavior using real StatsSA datasets.
 
-This project brings digital structure to a system millions rely on — improving access, clarity, and safety.
+**What I did**
+- Sourced and cleaned StatsSA electricity, municipal and GDP datasets  
+- Built time-series models (decomposition, rolling forecasts, regression)  
+- Measured correlations between load-shedding severity and sectoral GDP  
+- Built Streamlit dashboards and Gradio previews for stakeholders  
+- Packaged with Docker for reproducible deployment
 
----
+**Stack:** Python, Pandas, scikit-learn, Streamlit, Docker
 
-## 🌱 Current Focus
 
-- Advancing my **Java backend expertise**  
-- Diving deeper into **data engineering & distributed systems**  
-- Blending math + software to solve real SA problems  
-- Expanding my GitHub with polished, meaningful work  
+## Secondary Project — SA Taxi Fare & Route App (summary)
 
----
+<p align="center">
+  <img src="my_taxi_app.JPG" alt="Taxi App" width="75%">
+</p>
 
-## 📫 Contact
+**Short summary:** a browser-based app for finding taxi fares, seat selection (SVG), QR payments, rank navigation, and safety information.  
+Built for real commuter usability with autocomplete, voice-search, and clean SA-inspired UI.
 
-📧 Email: **name@gmail.com**  
-🔗 GitHub: **https://github.com/user/user**
+**Stack:** HTML, CSS, JavaScript, Node.js (local API), JSON route sheets, SVG seat layouts.
 
----
+<!-- rainbow divider -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
-<p align="center">Thank you for visiting my profile! ⭐</p>
+## Contact
+- Email: **snenkosi41@gmail.com**  
+- GitHub: https://github.com/inkosii
+
+
+<p align="center">✨ Crafted with ☕ Java, 🔧 gears, and a love for clean systems ✨</p>
