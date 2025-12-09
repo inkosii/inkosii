@@ -84,7 +84,7 @@ Java is my main craft; I combine it with Python for data and Streamlit/Gradio fo
 <!-- ====================================================== -->
 
 
-## Featured Project — Eskom Load Shedding Impact Analysis
+## Featured Project: Eskom Load Shedding Impact Analysis
 
 **Goal:** Quantify and visualize how load-shedding affects economic output, municipal demand, and household behavior using real StatsSA datasets.
 
@@ -98,7 +98,7 @@ Java is my main craft; I combine it with Python for data and Streamlit/Gradio fo
 **Stack:** Python, Pandas, scikit-learn, Streamlit, Docker
 
 
-## Secondary Project — SA Taxi Fare & Route App (summary)
+## Secondary Project: SA Taxi Fare & Route App (summary)
 
 <p align="center">
   <img src="my_taxi_app.JPG" alt="Taxi App" width="75%">
