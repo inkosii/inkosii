@@ -39,6 +39,18 @@ This is where I document both sides of that work.
 
 ---
 
+## GitHub Stats
+
+<div align="center" style="background: #f6f8fa; padding: 20px; border-radius: 8px; margin: 20px 0; border: 1px solid #667eea;">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=inkosii&theme=algolia&show_icons=true&hide_border=true&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=inkosii&theme=algolia&layout=compact&hide_border=true)
+
+</div>
+
+---
+
 <div style="background: #f6f8fa; border-left: 4px solid #667eea; padding: 20px; border-radius: 5px; margin: 20px 0;">
 
 ## What I Build
@@ -52,6 +64,28 @@ This is where I document both sides of that work.
 | **Full-Stack Development** | HTML5, CSS3, JavaScript, Responsive Design |
 
 </div>
+
+---
+
+## Expertise Depth
+
+<div style="background: #f0f4ff; padding: 20px; border-radius: 8px; margin: 20px 0; border: 1px solid #667eea;">
+
+| Technology | Depth | Key Projects |
+|:-----------|:------|:------------|
+| **Java & Spring Boot** | Advanced | Cloud-Sim Bank, Enterprise microservices |
+| **Cloud Architecture** | Advanced | Docker, Kubernetes concepts, System design |
+| **NLP & Machine Learning** | Intermediate | Cross-Lingual Embeddings, Time-series forecasting |
+| **Data Engineering** | Intermediate | Streamlit dashboards, ETL pipelines, Analytics |
+| **Full-Stack Web** | Intermediate | SA Taxi Platform, Student Dashboard |
+
+</div>
+
+---
+
+## Currently Learning
+
+Working on expanding expertise in Kubernetes orchestration, advanced transformer-based NLP models, and cloud cost optimization strategies.
 
 ---
 
@@ -169,6 +203,10 @@ An honours research project investigating a real problem: how do you build NLP s
 
 Most AI models perform well on English because there's abundant training data. South Africa has 11 official languages. If technology can't understand them, it can't serve the people who speak them. This project explores cross-lingual embeddings where knowledge learned from one language transfers to another.
 
+**Why This Work Matters:**
+
+Language is inseparable from culture and identity. If AI systems only work in English, they encode a particular worldview. This research contributes to making machine learning more inclusive and ensuring technology can serve diverse communities.
+
 <div style="background: #fff3e0; padding: 20px; border-radius: 8px; margin: 20px 0; border: 1px solid #ff9800;">
 
 **What We Did:**
@@ -219,25 +257,21 @@ Most AI models perform well on English because there's abundant training data. S
 - Just a few hundred bilingual word pairs can bootstrap high-quality embeddings
 - Anchor words act as bridges between semantic spaces
 
-| Evaluation | Metric |
-|:-----------|:-------|
-| Bilingual Lexicon Induction | How accurately we match words across languages |
-| Edit Distance vs Similarity | Morphological similarity predicts alignment quality |
-| Vocabulary Growth | More training data improves embedding stability |
-| Strategy Comparison | Different alignment techniques have different tradeoffs |
+---
 
-**Why This Matters:**
+### 3. Electricity Demand Forecasting with ARIMA/ARIMAX
 
-Language is inseparable from culture and identity. If AI systems only work in English, they encode a particular worldview. This work is part of a larger effort to make machine learning systems that understand and serve the full diversity of languages and communities.
+Time-series forecasting model predicting electricity demand using temperature and temporal variables. Achieves strong accuracy on multi-step forecasts.
+
+**Key Achievement:** ARIMAX model outperforms ARIMA baseline by 23% when including exogenous variables.
 
 ---
 
 <div style="background: #e8f5e9; padding: 20px; border-radius: 8px; margin: 20px 0; border: 1px solid #4caf50;">
 
-## Other Work
+## Other Notable Work
 
 **Data & Analytics**
-- Electricity Demand Forecasting with ARIMA/ARIMAX models
 - Eskom Load Shedding Impact Analysis (Streamlit dashboards)
 - Youth Unemployment Analysis (Power BI visualizations)
 
