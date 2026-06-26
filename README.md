@@ -2,7 +2,7 @@
 <!--                       ASCII BANNER                     -->
 <!-- ====================================================== -->
 <p align="center">
-<pre>
+<pre style="font-size: 12px; color: #00D9FF;">
   ____   _                      _      _         _      _         
  / ___| (_) _ __    ___  _ __  | |__  | |  __ _ | |__  | |  __ _  
  \___ \ | || '_ \  / _ \| '_ \ | '_ \ | | / _` || '_ \ | | / _` | 
@@ -18,260 +18,311 @@
 
 <div align="center">
 
-![Typing Animation](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=4000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=600&height=100&lines=Junior+Java+Developer+%40+FNB;Building+Systems+That+Scale;Exploring+AI+for+African+Languages)
+![Typing Animation](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=4000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=600&height=100&lines=Junior+Java+Developer+at+FNB;Enterprise+Systems+%26+Cloud+Architecture;NLP+Research+on+African+Languages)
 
 </div>
 
 ---
 
-## 🚀 Hi, I'm Sinenhlahla
+<div align="center" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; border-radius: 10px; margin: 20px 0;">
 
-**Junior Java Developer @ FNB** (Enablement Office of the CIO)  
-**Honours in Computer Science** at the University of Pretoria
+## Hi, I'm Sinenhlahla
 
-I build backend systems, distributed architectures, and machine learning applications that work. My focus is on systems that scale, code that's maintainable, and solutions that matter.
+**Java Developer** | **FNB Enablement Office of the CIO**  
+**Honours in Computer Science** | **University of Pretoria**
 
-By day, I develop Java enterprise applications within FNB's core infrastructure. By night and in between, I explore NLP for African languages, design cloud architectures, and analyze data to inform policy decisions. This GitHub is where I document both.
+</div>
+
+I build systems that scale. Backend infrastructure, distributed architectures, and machine learning applications that solve real problems. At FNB, I contribute to enterprise Java development within the core infrastructure team. Outside of work, I research NLP for South African languages and design cloud systems.
+
+This is where I document both sides of that work.
 
 ---
 
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40"> What I Do
+<div style="background: #f6f8fa; border-left: 4px solid #667eea; padding: 20px; border-radius: 5px; margin: 20px 0;">
 
-| 🎯 Area | 🛠️ What's Inside |
-|---------|------------------|
-| **Enterprise Architecture** | Microservices, API Gateways, Event-Driven Systems, Docker |
-| **Backend Development** | Java Spring Boot, REST APIs, Database Design, System Design |
+## What I Build
+
+| Focus Area | Tech Stack |
+|:-----------|:-----------|
+| **Enterprise Backend** | Java, Spring Boot, REST APIs, Microservices, Database Design |
+| **Cloud & Infrastructure** | Docker, Kong API Gateway, Prometheus, Grafana, ELK Stack |
 | **Machine Learning** | NLP, Cross-lingual Embeddings, Time-Series Forecasting, Model Evaluation |
-| **Data Engineering** | Python, Pandas, Streamlit, Power BI, Statistical Analysis |
-| **Cloud & DevOps** | Docker, Prometheus, Grafana, ELK Stack, Monitoring |
-| **Full-Stack** | HTML5, CSS3, JavaScript, Responsive Design |
+| **Data Engineering** | Python, Pandas, NumPy, scikit-learn, Streamlit |
+| **Full-Stack Development** | HTML5, CSS3, JavaScript, Responsive Design |
+
+</div>
 
 ---
 
-## 🎨 Featured Projects
+## Featured Projects
 
-### 1️⃣ Cloud-Sim Bank: Enterprise Microservices Architecture
+### 1. Cloud-Sim Bank: Enterprise Microservices Architecture
 
-<img src="https://img.shields.io/badge/Java-Spring%20Boot-ED8B00?style=flat-square&logo=spring&logoColor=white" /> <img src="https://img.shields.io/badge/Kong-API%20Gateway-003D7A?style=flat-square&logo=kong&logoColor=white" /> <img src="https://img.shields.io/badge/Docker-Containerization-2496ED?style=flat-square&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/Prometheus-Monitoring-E6522C?style=flat-square&logo=prometheus&logoColor=white" />
+<div align="center">
+
+[![Java](https://img.shields.io/badge/Java-Spring%20Boot-ED8B00?style=flat-square&logo=spring&logoColor=white)](https://spring.io/)
+[![Kong](https://img.shields.io/badge/Kong-API%20Gateway-003D7A?style=flat-square&logo=kong&logoColor=white)](https://konghq.com/)
+[![Docker](https://img.shields.io/badge/Docker-Containerization-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Prometheus](https://img.shields.io/badge/Prometheus-Monitoring-E6522C?style=flat-square&logo=prometheus&logoColor=white)](https://prometheus.io/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-336791?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+
+</div>
 
 **Repository:** [youth_cloud_banking_system](https://github.com/inkosii/youth_cloud_banking_system)
 
-A production-grade banking platform demonstrating modern enterprise architecture, cloud-native design, and operational excellence.
+A production-grade banking platform built to explore modern enterprise architecture. It demonstrates how distributed services communicate, how to monitor systems at scale, and how to structure code so teams can work independently.
 
-**Architecture Diagram:**
+**System Architecture:**
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/inkosii/youth_cloud_banking_system/main/Documentation/architecture_diagram.png" alt="Cloud-Sim Bank Architecture" width="90%">
 </p>
 
-**System Flow:**
+<div style="background: #f0f4ff; padding: 20px; border-radius: 8px; margin: 20px 0; border: 1px solid #667eea;">
+
+**How It Works:**
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│  Client Requests                                           │
-│       ↓                                                     │
-│  Kong API Gateway (Port 8000)                             │
-│       ↓                                                     │
-│  ┌─────────────────────────────────────────┐              │
-│  │  Microservices Layer                   │              │
-│  ├─────────────────────────────────────────┤              │
-│  │ • Account Service (Java, Port 8081)    │              │
-│  │ • Transaction Service (Java, Port 8082) │              │
-│  │ • FastAPI Integration (Python, 8001)   │              │
-│  └─────────────────────────────────────────┘              │
-│       ↓                                                     │
-│  PostgreSQL Database (Port 5432)                          │
-│                                                             │
-│  ═══════════════════════════════════════════              │
-│  Observability Layer:                                     │
-│  ├─ Prometheus (Port 9090) → Metrics                      │
-│  ├─ Grafana (Port 3000) → Dashboards                      │
-│  └─ ELK Stack → Centralized Logs                          │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
+Client
+  │
+  ├─ Kong API Gateway (8000)
+  │  - Request routing
+  │  - Rate limiting
+  │  - Authentication
+  │
+  ├─ Account Service (8081)
+  │  - User management
+  │  - Account operations
+  │
+  ├─ Transaction Service (8082)
+  │  - Deposits/Withdrawals
+  │  - Transfer logic
+  │
+  └─ PostgreSQL (5432)
+     - Persistent storage
+     - ER modeled schema
+
+Observer Layer:
+  • Prometheus (9090) → Metrics collection
+  • Grafana (3000) → Dashboard visualization  
+  • ELK Stack (9200, 5601) → Centralized logging
 ```
 
-**What's Built:**
+</div>
 
-| 🔧 Component | 📋 Purpose | 💻 Technology |
-|:----------:|:----------:|:----------:|
-| API Gateway | Request routing, rate limiting, security | Kong |
-| Account Service | User account management | Java Spring Boot |
-| Transaction Service | Deposit, withdrawal, transfer logic | Java Spring Boot |
-| Data Layer | Persistent storage with ER modeling | PostgreSQL |
-| Monitoring | Real-time metrics collection | Prometheus + Grafana |
-| Logging | Centralized log aggregation | ELK Stack |
+**Component Breakdown:**
 
-**Dashboards in Action:**
+| Component | Purpose | Technology |
+|:----------|:--------|:-----------|
+| API Gateway | Routes requests, enforces policies | Kong |
+| Account Service | Manages user accounts and operations | Java Spring Boot |
+| Transaction Service | Processes banking transactions | Java Spring Boot |
+| Database | Data persistence | PostgreSQL |
+| Metrics | System observability | Prometheus + Grafana |
+| Logs | Centralized log aggregation | Elasticsearch, Logstash, Kibana |
 
-Prometheus targets showing all services healthy:
+**What's Actually Running:**
+
+Prometheus collecting metrics from all services:
 <p align="center">
   <img src="https://raw.githubusercontent.com/inkosii/youth_cloud_banking_system/main/Documentation/prometheus-.JPG" alt="Prometheus Targets" width="85%">
-  <br>
-  <sub><i>✓ All services reporting metrics successfully</i></sub>
 </p>
 
-Grafana dashboard tracking request throughput and service latency:
+<p align="center" style="font-size: 12px; color: #666;">All services reporting metrics successfully</p>
+
+Grafana dashboards showing throughput, latency, and health:
 <p align="center">
   <img src="https://raw.githubusercontent.com/inkosii/youth_cloud_banking_system/main/Documentation/grafana-dashboard.JPG" alt="Grafana Dashboard" width="85%">
-  <br>
-  <sub><i>Real-time metrics: throughput, latency, service health</i></sub>
 </p>
 
-Kibana logs dashboard for debugging and audit trails:
+<p align="center" style="font-size: 12px; color: #666;">Real-time metrics: request throughput, response latency, service health</p>
+
+Kibana making logs searchable across all services:
 <p align="center">
   <img src="https://raw.githubusercontent.com/inkosii/youth_cloud_banking_system/main/Documentation/kibana-logs.JPG" alt="Kibana Logs Dashboard" width="85%">
-  <br>
-  <sub><i>Searchable logs across all services</i></sub>
 </p>
 
-**Why It Matters:**  
-This project demonstrates how to build systems that are observable, scalable, and maintainable. The separation between business logic (services), routing (gateway), and monitoring (observability stack) is what allows large teams to collaborate without stepping on each other's toes.
+<p align="center" style="font-size: 12px; color: #666;">Centralized logs for debugging and compliance</p>
+
+**Why This Approach Matters:**
+
+When you separate concerns like this, each service can be developed, tested, and deployed independently. The API gateway handles cross-cutting concerns like authentication and rate limiting. Monitoring is built in from the start, not bolted on later. When something breaks, you have metrics and logs to understand what happened. This is how modern systems work at scale.
 
 ---
 
-### 2️⃣ Cross-Lingual Embeddings for South African Languages
-
-<img src="https://img.shields.io/badge/NLP-FastText-4B8BBE?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Research-Embeddings-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Languages-isiZulu%2C%20Sepedi%2C%20Setswana-1ABC9C?style=flat-square" />
-
-**Repository:** [Cross-Lingual-Embeddings-NLP-2026](https://github.com/inkosii/Cross-Lingual-Embeddings-NLP-2026)
-
-An honours research project exploring how to build NLP systems for languages with limited digital data. Focus: isiZulu, Sepedi, and Setswana.
-
-**The Problem:**
-
-Most AI models are trained on English because there's abundant data. What about South Africa's 11 official languages? This project investigates cross-lingual word embeddings, which learn representations from one language and transfer knowledge to another.
-
-**Research Results:**
-
-Overall performance across alignment strategies:
-<p align="center">
-  <img src="https://raw.githubusercontent.com/inkosii/Cross-Lingual-Embeddings-NLP-2026/main/evaluation-20260531T194328Z-3-001/evaluation/final_results.png" alt="Cross-Lingual Alignment Results" width="80%">
-  <br>
-  <sub><i>Final performance metrics across all alignment strategies</i></sub>
-</p>
-
-Strategy comparison between isiZulu and Sepedi:
-<p align="center">
-  <img src="https://raw.githubusercontent.com/inkosii/Cross-Lingual-Embeddings-NLP-2026/main/evaluation-20260531T194328Z-3-001/evaluation/strategy_comparison_zul_sep.png" alt="Strategy Comparison" width="80%">
-  <br>
-  <sub><i>Comparing different embedding alignment techniques</i></sub>
-</p>
-
-Translation accuracy showing correlation between edit distance and embedding similarity:
-<p align="center">
-  <img src="https://raw.githubusercontent.com/inkosii/Cross-Lingual-Embeddings-NLP-2026/main/evaluation-20260531T194328Z-3-001/evaluation/translation_accuracy.png" alt="Translation Accuracy" width="75%">
-  <br>
-  <sub><i>Morphological similarity correlates with embedding alignment quality</i></sub>
-</p>
-
-Embedding space visualization (t-SNE) showing how languages align:
-<p align="center">
-  <img src="https://raw.githubusercontent.com/inkosii/Cross-Lingual-Embeddings-NLP-2026/main/evaluation-20260531T194328Z-3-001/evaluation/tsne_eng_zul.png" alt="t-SNE Embedding Space" width="75%">
-  <br>
-  <sub><i>Semantic space alignment between English and isiZulu</i></sub>
-</p>
-
-**What's Inside:**
-
-| 📊 Evaluation Type | 🔍 What We Measured |
-|:-:|:-:|
-| Bilingual Lexicon Induction | How well words match across languages |
-| Edit Distance vs. Similarity | Morphological similarity correlates with embedding alignment |
-| Vocabulary Growth | How corpus size affects embedding quality |
-| Alignment Strategies | Comparing different techniques for semantic space mapping |
-
-**Key Insights:**
-- ✓ Orthogonal Procrustes mapping provides stable cross-lingual alignment
-- ✓ Morphologically similar languages (isiZulu, Sepedi) transfer knowledge effectively
-- ✓ Bilingual lexicons of just a few hundred words can bootstrap high-quality embeddings
-
-**Why It Matters:**  
-Language is culture. If AI systems can't speak your language, they can't serve your community. This research contributes to making NLP more inclusive for underrepresented languages.
-
----
-
-## 📚 Other Notable Work
-
-### 📊 Data & Analytics
-- **Electricity Demand Forecasting** - Time-series models (ARIMA/ARIMAX) predicting power demand  
-- **Eskom Load Shedding Impact Analysis** - Quantifying electricity crisis effects on economy  
-- **Youth Unemployment Analysis** - Interactive Power BI dashboards with ILOSTAT data  
-
-### 🤖 Machine Learning
-- **Graduate Prediction Models** - Identifying students at risk using Random Forest classifiers
-- **Model & Bias Audit** - Evaluating ML models for fairness across demographics
-
-### 💼 Full-Stack Applications
-- **SA Taxi Platform** - Browser-based app for fares, seat selection, QR payments, safety resources
-- **Smart Clinic Management System** - Healthcare app for patient and appointment management
-- **Student Dashboard (NFC Card)** - Multi-purpose card with attendance, payments, calculators
-
----
-
-## 💻 Technical Skills
-
-```
-╔════════════════════════════════════════════════════════════╗
-║  Languages      │  Java, Python, JavaScript, SQL, Bash    ║
-║  Backend        │  Spring Boot, REST APIs, Microservices  ║
-║  Data/Analytics │  Pandas, NumPy, scikit-learn, Jupyter  ║
-║  ML/NLP         │  FastText, Gensim, PyTorch, Embeddings ║
-║  DevOps         │  Docker, Kong, Prometheus, Grafana     ║
-║  Frontend       │  HTML5, CSS3, JavaScript, Responsive   ║
-╚════════════════════════════════════════════════════════════╝
-```
-
----
-
-## 🎯 How I Approach Problems
-
-```
-Observe First → Design for Scale → Make it Observable → Document Decisions → Iterate
-     ↓              ↓                    ↓                      ↓              ↓
-Understand    Build for Growth    Monitoring,             Why did I      Every project
-constraints   and collaboration   logging, metrics        choose this?   teaches me
-                                  baked in from day 1                     something
-```
-
-**Observe First**  
-Understand what's actually happening before jumping to solutions.
-
-**Design for Scale**  
-Build systems assuming they'll grow and teams will collaborate on them.
-
-**Make it Observable**  
-Monitoring, logging, and metrics aren't afterthoughts.
-
-**Document Decisions**  
-Why this approach? What were the tradeoffs? What could be better?
-
-**Iterate Ruthlessly**  
-Each project teaches something new.
-
----
-
-## 📬 Get In Touch
-
-<p align="center">
-
-[![Email Badge](https://img.shields.io/badge/Email-snenkosi41%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:snenkosi41@gmail.com)
-[![GitHub Badge](https://img.shields.io/badge/GitHub-@inkosii-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/inkosii)
-[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Coming%20Soon-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/inkosii)
-
-</p>
-
----
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=inkosii&label=Profile+Views&color=0E83F0&style=flat-square" alt="Profile Views">
-</p>
+### 2. Cross-Lingual Embeddings for South African Languages
 
 <div align="center">
 
-**Built with intention. Crafted with care.**
+[![NLP](https://img.shields.io/badge/NLP-FastText-4B8BBE?style=flat-square&logo=python&logoColor=white)](https://fasttext.cc/)
+[![Research](https://img.shields.io/badge/Research-Embeddings-FF6B6B?style=flat-square)](https://github.com/inkosii/Cross-Lingual-Embeddings-NLP-2026)
+[![Languages](https://img.shields.io/badge/Languages-isiZulu%2CSepedi%2CSetswana-1ABC9C?style=flat-square)](https://github.com/inkosii/Cross-Lingual-Embeddings-NLP-2026)
 
-*Last updated: 2026* | *Continuously evolving*
+</div>
+
+**Repository:** [Cross-Lingual-Embeddings-NLP-2026](https://github.com/inkosii/Cross-Lingual-Embeddings-NLP-2026)
+
+An honours research project investigating a real problem: how do you build NLP systems for languages that don't have large amounts of digital training data?
+
+**The Challenge:**
+
+Most AI models perform well on English because there's abundant training data. South Africa has 11 official languages. If technology can't understand them, it can't serve the people who speak them. This project explores cross-lingual embeddings where knowledge learned from one language transfers to another.
+
+<div style="background: #fff3e0; padding: 20px; border-radius: 8px; margin: 20px 0; border: 1px solid #ff9800;">
+
+**What We Did:**
+
+1. Trained FastText embeddings for isiZulu, Sepedi, and Setswana
+2. Used orthogonal Procrustes mapping to align semantic spaces across languages
+3. Evaluated alignment quality through bilingual lexicon induction and downstream tasks
+4. Analyzed what makes alignment work (morphological similarity, vocabulary overlap, etc.)
+
+</div>
+
+**Results Across Alignment Strategies:**
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/inkosii/Cross-Lingual-Embeddings-NLP-2026/main/evaluation-20260531T194328Z-3-001/evaluation/final_results.png" alt="Cross-Lingual Alignment Results" width="80%">
+</p>
+
+<p align="center" style="font-size: 12px; color: #666;">Final performance metrics across all alignment strategies</p>
+
+**Strategy Comparison Between Languages:**
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/inkosii/Cross-Lingual-Embeddings-NLP-2026/main/evaluation-20260531T194328Z-3-001/evaluation/strategy_comparison_zul_sep.png" alt="Strategy Comparison" width="80%">
+</p>
+
+<p align="center" style="font-size: 12px; color: #666;">Comparing different embedding alignment techniques</p>
+
+**Morphological Similarity Matters:**
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/inkosii/Cross-Lingual-Embeddings-NLP-2026/main/evaluation-20260531T194328Z-3-001/evaluation/translation_accuracy.png" alt="Translation Accuracy" width="75%">
+</p>
+
+<p align="center" style="font-size: 12px; color: #666;">Words that look similar across languages align better</p>
+
+**Visualizing the Semantic Space (t-SNE):**
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/inkosii/Cross-Lingual-Embeddings-NLP-2026/main/evaluation-20260531T194328Z-3-001/evaluation/tsne_eng_zul.png" alt="t-SNE Embedding Space" width="75%">
+</p>
+
+<p align="center" style="font-size: 12px; color: #666;">How English and isiZulu semantic spaces align after Procrustes mapping</p>
+
+**Key Findings:**
+
+- Orthogonal Procrustes mapping creates stable, meaningful alignments
+- Morphologically similar languages transfer knowledge better
+- Just a few hundred bilingual word pairs can bootstrap high-quality embeddings
+- Anchor words act as bridges between semantic spaces
+
+| Evaluation | Metric |
+|:-----------|:-------|
+| Bilingual Lexicon Induction | How accurately we match words across languages |
+| Edit Distance vs Similarity | Morphological similarity predicts alignment quality |
+| Vocabulary Growth | More training data improves embedding stability |
+| Strategy Comparison | Different alignment techniques have different tradeoffs |
+
+**Why This Matters:**
+
+Language is inseparable from culture and identity. If AI systems only work in English, they encode a particular worldview. This work is part of a larger effort to make machine learning systems that understand and serve the full diversity of languages and communities.
+
+---
+
+<div style="background: #e8f5e9; padding: 20px; border-radius: 8px; margin: 20px 0; border: 1px solid #4caf50;">
+
+## Other Work
+
+**Data & Analytics**
+- Electricity Demand Forecasting with ARIMA/ARIMAX models
+- Eskom Load Shedding Impact Analysis (Streamlit dashboards)
+- Youth Unemployment Analysis (Power BI visualizations)
+
+**Machine Learning**
+- Graduate Prediction Models (Random Forest classification)
+- Model and Bias Audit (fairness evaluation)
+
+**Full-Stack Applications**
+- SA Taxi Platform (fares, routes, seat selection, QR payments)
+- Smart Clinic Management System
+- Student Dashboard with NFC functionality
+
+</div>
+
+---
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; border-radius: 8px; margin: 20px 0; color: white;">
+
+## Technical Foundation
+
+```
+Backend Infrastructure
+├─ Java & Spring Boot
+├─ REST API design
+├─ Microservices architecture
+└─ System design
+
+Data & Analysis
+├─ Python data stack
+├─ Statistical modeling
+├─ Time-series forecasting
+└─ ML pipeline development
+
+Operations
+├─ Docker containerization
+├─ Prometheus monitoring
+├─ Grafana dashboards
+├─ ELK stack logging
+└─ Kong API gateway
+
+Language & NLP
+├─ FastText embeddings
+├─ Cross-lingual alignment
+├─ Gensim toolkit
+└─ Evaluation methodologies
+```
+
+</div>
+
+---
+
+## How I Work
+
+**Start with understanding.** What's the actual problem? What constraints exist? What does success look like?
+
+**Design for people.** Not just now, but how this system will grow and how teams will collaborate on it.
+
+**Build observability in.** Monitoring, logging, and metrics from day one. You can't fix what you can't see.
+
+**Document the reasoning.** Why this approach? What were the tradeoffs? What might we change next time?
+
+**Learn and iterate.** Each project teaches something. I carry those lessons forward.
+
+---
+
+<div align="center">
+
+## Connect
+
+[![Email](https://img.shields.io/badge/Email-snenkosi41%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:snenkosi41@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-@inkosii-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/inkosii)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sinenhlahla%20Nkosi-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://za.linkedin.com/in/sinenhlahla-nkosi-9305b8372)
+
+</div>
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=inkosii&label=Profile+Views&color=667eea&style=flat-square" alt="Profile Views">
+</p>
+
+<div align="center" style="margin-top: 40px; padding: 20px; background: #f6f8fa; border-radius: 8px;">
+
+Built with intention. Crafted with care.
+
+*Continuously learning, building, and improving*
 
 </div>
