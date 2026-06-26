@@ -12,130 +12,231 @@
   / _ \ (_) _ __  (_) ___   ___      | \ | || | __ ___   ___ (_)  
  | | | || || '_ \ | |/ __| / _ \     |  \| || |/ // _ \ / __|| |  
  | |_| || || | | || |\__ \| (_) |    | |\  ||   <| (_) |\__ \| |  
-  \__\_\|_||_| |_||_||___/ \___/     |_| \_||_|\_\\___/ |___/|_|  
+  \__\_\|_||_| |_||_||___| \___/     |_| \_||_|\_\\___/ |___/|_|  
 </pre>
 </p>
 
 ---
 
-## Building Software That Solves Real Problems
+## Hi, I'm Sinenhlahla
 
-I'm **Sinenhlahla Qiniso Nkosi**, a software developer with a background in applied mathematics and computer science. I build enterprise systems, data-driven applications, and research-backed solutions that address real challenges.
+**Junior Java Developer @ FNB** (Enablement Office of the CIO)  
+**Honours in Computer Science** at the University of Pretoria
 
-My work spans three core areas: designing reliable distributed systems, developing machine learning applications for African language processing, and creating data analytics platforms that inform decision-making. Each project reflects my commitment to clean architecture, practical problem-solving, and measurable impact.
+I build backend systems, distributed architectures, and machine learning applications that work. My focus is on systems that scale, code that's maintainable, and solutions that matter.
 
-Currently, I develop Java-based enterprise applications while completing my Honours in Computer Science at the University of Pretoria. Beyond my day job, I explore how technology can tackle problems faced by communities across South Africa, whether that's electricity grid stability or accessible financial services.
-
-This repository documents that journey. You'll find projects ranging from microservices architectures to NLP research, each representing a deliberate effort to learn, iterate, and improve.
+By day, I develop Java enterprise applications within FNB's core infrastructure. By night and in between, I explore NLP for African languages, design cloud architectures, and analyze data to inform policy decisions. This GitHub is where I document both.
 
 ---
 
-## Featured Work
+## What I Do
 
-### Cloud-Sim Bank: Enterprise Banking Architecture
+| Area | What's Inside |
+|------|---------------|
+| **Enterprise Architecture** | Microservices, API Gateways, Event-Driven Systems, Docker |
+| **Backend Development** | Java Spring Boot, REST APIs, Database Design, System Design |
+| **Machine Learning** | NLP, Cross-lingual Embeddings, Time-Series Forecasting, Model Evaluation |
+| **Data Engineering** | Python, Pandas, Streamlit, Power BI, Statistical Analysis |
+| **Cloud & DevOps** | Docker, Prometheus, Grafana, ELK Stack, Monitoring |
+| **Full-Stack** | HTML5, CSS3, JavaScript, Responsive Design |
+
+---
+
+## Featured Projects
+
+### 1. Cloud-Sim Bank: Enterprise Microservices Architecture
+
+Repository: [youth_cloud_banking_system](https://github.com/inkosii/youth_cloud_banking_system)
+
+A production-grade banking platform demonstrating modern enterprise architecture, cloud-native design, and operational excellence.
+
+**Architecture Diagram:**
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/inkosii/youth_cloud_banking_system/main/Documentation/architecture_diagram.png" alt="Cloud-Sim Bank Architecture" width="90%">
 </p>
 
-**Repository:** [youth_cloud_banking_system](https://github.com/inkosii/youth_cloud_banking_system)
+**System Flow:**
 
-This project explores how modern enterprise systems are built, deployed, and monitored at scale. I designed and implemented a cloud-native banking platform that demonstrates microservices architecture, distributed systems patterns, and operational excellence.
+```
+Client Requests 
+    ↓
+Kong API Gateway (Port 8000)
+    ↓
+├─ Account Service (Java Spring Boot, Port 8081)
+├─ Transaction Service (Java Spring Boot, Port 8082)
+└─ FastAPI Integration (Python, Port 8001)
+    ↓
+PostgreSQL Database (Port 5432)
+
+Observability Layer:
+├─ Prometheus (Port 9090) → Collects Metrics
+├─ Grafana (Port 3000) → Visualizes Metrics
+└─ ELK Stack (Port 9200, 5601) → Centralized Logs
+```
+
+**What's Built:**
+
+| Component | Purpose | Technology |
+|-----------|---------|------------|
+| API Gateway | Request routing, rate limiting, security | Kong |
+| Account Service | User account management | Java Spring Boot |
+| Transaction Service | Deposit, withdrawal, transfer logic | Java Spring Boot |
+| Data Layer | Persistent storage with ER modeling | PostgreSQL |
+| Monitoring | Real-time metrics collection | Prometheus + Grafana |
+| Logging | Centralized log aggregation | Elasticsearch, Logstash, Kibana |
+
+**Dashboards in Action:**
+
+Prometheus targets showing all services healthy:
+<p align="center">
+  <img src="https://raw.githubusercontent.com/inkosii/youth_cloud_banking_system/main/Documentation/prometheus-.JPG" alt="Prometheus Targets" width="85%">
+</p>
+
+Grafana dashboard tracking request throughput and service latency:
+<p align="center">
+  <img src="https://raw.githubusercontent.com/inkosii/youth_cloud_banking_system/main/Documentation/grafana-dashboard.JPG" alt="Grafana Dashboard" width="85%">
+</p>
+
+Kibana logs dashboard for debugging and audit trails:
+<p align="center">
+  <img src="https://raw.githubusercontent.com/inkosii/youth_cloud_banking_system/main/Documentation/kibana-logs.JPG" alt="Kibana Logs Dashboard" width="85%">
+</p>
+
+**Why It Matters:**  
+This project demonstrates how to build systems that are observable, scalable, and maintainable. The separation between business logic (services), routing (gateway), and monitoring (observability stack) is what allows large teams to collaborate without stepping on each other's toes.
+
+---
+
+### 2. Cross-Lingual Embeddings for South African Languages
+
+Repository: [Cross-Lingual-Embeddings-NLP-2026](https://github.com/inkosii/Cross-Lingual-Embeddings-NLP-2026)
+
+An honours research project exploring how to build NLP systems for languages with limited digital data. Focus: isiZulu, Sepedi, and Setswana.
+
+**The Problem:**
+
+Most AI models are trained on English because there's abundant data. What about South Africa's 11 official languages? This project investigates cross-lingual word embeddings, which learn representations from one language and transfer knowledge to another.
+
+**Research Results:**
+
+Overall performance across alignment strategies:
+<p align="center">
+  <img src="https://raw.githubusercontent.com/inkosii/Cross-Lingual-Embeddings-NLP-2026/main/evaluation-20260531T194328Z-3-001/evaluation/final_results.png" alt="Cross-Lingual Alignment Results" width="80%">
+</p>
+
+Strategy comparison between isiZulu and Sepedi:
+<p align="center">
+  <img src="https://raw.githubusercontent.com/inkosii/Cross-Lingual-Embeddings-NLP-2026/main/evaluation-20260531T194328Z-3-001/evaluation/strategy_comparison_zul_sep.png" alt="Strategy Comparison" width="80%">
+</p>
+
+Translation accuracy showing correlation between edit distance and embedding similarity:
+<p align="center">
+  <img src="https://raw.githubusercontent.com/inkosii/Cross-Lingual-Embeddings-NLP-2026/main/evaluation-20260531T194328Z-3-001/evaluation/translation_accuracy.png" alt="Translation Accuracy" width="75%">
+</p>
+
+Embedding space visualization (t-SNE) showing how languages align:
+<p align="center">
+  <img src="https://raw.githubusercontent.com/inkosii/Cross-Lingual-Embeddings-NLP-2026/main/evaluation-20260531T194328Z-3-001/evaluation/tsne_eng_zul.png" alt="t-SNE Embedding Space" width="75%">
+</p>
 
 **What's Inside:**
 
-The platform routes all client requests through a Kong API Gateway, which enforces security and rate limiting. Behind the gateway sit two Java Spring Boot microservices: the Account Service manages user accounts and user operations, while the Transaction Service handles the core banking logic for deposits, withdrawals, and transfers. A PostgreSQL database ensures data persistence with properly designed entity relationships and referential integrity. For observability, Prometheus scrapes metrics from all services and feeds them into Grafana dashboards where you can monitor request throughput, service latency, and database performance in real-time. The ELK Stack (Elasticsearch, Logstash, Kibana) centralizes all logs, making it possible to search across services and debug production issues efficiently.
+| Evaluation Type | What We Measured |
+|-----------------|------------------|
+| Bilingual Lexicon Induction | How well words match across languages |
+| Edit Distance vs. Similarity | Morphological similarity correlates with embedding alignment |
+| Vocabulary Growth | How corpus size affects embedding quality |
+| Alignment Strategies | Comparing different techniques for semantic space mapping |
 
-All services run in Docker containers orchestrated with Docker Compose, creating a reproducible local environment that mirrors production architecture.
+**Key Insights:**
+- Orthogonal Procrustes mapping provides stable cross-lingual alignment
+- Morphologically similar languages (isiZulu, Sepedi) transfer knowledge effectively
+- Bilingual lexicons of just a few hundred words can bootstrap high-quality embeddings
 
-**Key Technologies:**
-- Java Spring Boot microservices
-- Kong API Gateway for request routing
-- PostgreSQL with ER modeling
-- Prometheus and Grafana for monitoring
-- ELK Stack for centralized logging
-- Docker and Docker Compose
-
-**Why This Project Matters:** It demonstrates how large-scale systems are built with clear separation of concerns, observability baked in from the start, and operational patterns that allow teams to understand what's happening in production.
-
----
-
-### Cross-Lingual Embeddings for South African Languages
-
-**Repository:** [Cross-Lingual-Embeddings-NLP-2026](https://github.com/inkosii/Cross-Lingual-Embeddings-NLP-2026)
-
-This honours project investigates a specific problem: how do we build natural language processing systems for languages with limited digital resources? I focused on isiZulu, Sepedi, and Setswana—three of South Africa's most widely spoken languages.
-
-**The Research:**
-
-Most NLP models are trained on English because there's abundant data available. When you want to work with African languages, you have less training data to work with. My approach was to create multilingual word embeddings by training FastText embeddings for each language separately, then aligning their semantic spaces using orthogonal Procrustes mapping. This technique allows knowledge learned from one language to transfer to another.
-
-I evaluated the quality of these alignments by testing how well the system could perform bilingual lexicon induction (matching words across languages with similar meanings), cross-lingual similarity tasks, and downstream NLP applications.
-
-**Why This Matters:** Most AI systems today are built around English. If we want technology to serve all South Africans, we need systems that understand local languages. This project demonstrates one approach to that challenge and contributes to the broader work of making NLP more inclusive.
-
-**Key Technologies:**
-- FastText word embeddings
-- Orthogonal Procrustes alignment
-- Python, NumPy, Pandas
-- Gensim and scikit-learn
-- Jupyter Notebooks for experimentation
+**Why It Matters:**  
+Language is culture. If AI systems can't speak your language, they can't serve your community. This research contributes to making NLP more inclusive for underrepresented languages.
 
 ---
 
-## Other Work
+## Other Notable Work
 
-**Data & Analytics:**
-- Electricity Demand Forecasting — ARIMA/ARIMAX time-series models predicting power demand using temperature and time-of-day variables
-- Eskom Load Shedding Impact Analysis — Quantifying how electricity crises affect South Africa's economy using StatsSA datasets and Streamlit dashboards
-- Youth Unemployment Analysis — Interactive Power BI dashboards analyzing employment trends with ILOSTAT data
+### Data & Analytics
+**Electricity Demand Forecasting**  
+Time-series models (ARIMA/ARIMAX) predicting power demand using temperature and time-of-day variables. Helps utilities optimize load scheduling.  
+Tech: Python, NumPy, statsmodels, scikit-learn
 
-**Machine Learning:**
-- Graduate Prediction Models — ML systems to identify students at risk of dropping out
-- Model and Bias Audit — Evaluating machine learning models for fairness and performance across demographics
+**Eskom Load Shedding Impact Analysis**  
+Quantifying how electricity crises affect South Africa's economy using StatsSA datasets.  
+Tech: Streamlit, Docker, Pandas, StatisticalAnalysis
 
-**Full-Stack Applications:**
-- SA Taxi Platform — Browser-based app for finding fares, selecting seats (SVG), making payments, and accessing safety resources
-- Smart Clinic Management System — Healthcare application for patient and appointment management
-- Student Dashboard (NFC Card) — Multi-purpose student card with attendance tracking, payments, and academic calculators
+**Youth Unemployment Analysis**  
+Interactive Power BI dashboards visualizing employment trends with ILOSTAT data.  
+Tech: Python, Power BI, Google Colab
+
+### Machine Learning
+**Graduate Prediction Models**  
+Identifying students at risk of dropping out using Random Forest classifiers.
+
+**Model & Bias Audit**  
+Evaluating ML models for fairness and performance across demographics.
+
+### Full-Stack Applications
+**SA Taxi Platform**  
+Browser-based app for finding fares, selecting seats (SVG), making QR payments, accessing safety resources.  
+Tech: HTML5, CSS3, JavaScript, Node.js
+
+**Smart Clinic Management System**  
+Healthcare app for patient and appointment management.
+
+**Student Dashboard (NFC Card)**  
+Multi-purpose student card with attendance tracking, payments, and academic calculators.
 
 ---
 
-## How I Work
+## Technical Skills
 
-**System Design:** I think in terms of how components interact, where data flows, where failures might happen, and how to build systems that are easy to understand and modify.
-
-**Practical Problem-Solving:** I start by understanding the real problem before jumping to code. What are people actually trying to accomplish? What constraints exist? What would success look like?
-
-**Observability:** I build monitoring, logging, and metrics into systems from the start. You can't fix what you can't see.
-
-**Documentation:** I document decisions, not just code. Why did I choose this approach? What were the tradeoffs? What might we do differently next time?
-
-**Continuous Improvement:** Each project teaches me something. I carry those lessons forward.
+```
+Languages:     Java, Python, JavaScript, SQL, Bash
+Backend:       Spring Boot, REST APIs, Microservices, Database Design
+Data/Analytics: Pandas, NumPy, scikit-learn, Jupyter Notebooks, Streamlit
+ML/NLP:        FastText, Gensim, PyTorch, Model Evaluation, Embeddings
+DevOps:        Docker, Kong API Gateway, Prometheus, Grafana, ELK Stack
+Frontend:      HTML5, CSS3, JavaScript, Responsive Design
+```
 
 ---
 
-## Technical Stack
+## How I Approach Problems
 
-**Languages:** Java, Python, JavaScript, SQL, Bash
+**Observe First**  
+Understand what's actually happening before jumping to solutions. What are the constraints? What would success look like?
 
-**Backend & Architecture:** Spring Boot, REST APIs, Microservices, Database Design, Docker
+**Design for Scale**  
+Build systems assuming they'll grow. Consider how components interact, where failures might happen, and how teams will collaborate.
 
-**Data & Analytics:** Pandas, NumPy, scikit-learn, Jupyter Notebooks, Streamlit, Power BI
+**Make it Observable**  
+Monitoring, logging, and metrics aren't afterthoughts. They're built in from day one.
 
-**Machine Learning:** NLP, Time-series Forecasting, Model Evaluation, Cross-lingual Embeddings
+**Document Decisions**  
+Why did I choose this approach? What were the tradeoffs? What might we do differently next time?
 
-**DevOps & Operations:** Docker, Docker Compose, Kong API Gateway, Prometheus, Grafana, ELK Stack, CI/CD
-
-**Frontend:** HTML5, CSS3, JavaScript, Responsive Design
+**Iterate Ruthlessly**  
+Every project teaches something. I carry those lessons forward.
 
 ---
 
 ## Get In Touch
 
-Email: [snenkosi41@gmail.com](mailto:snenkosi41@gmail.com)
+<p align="center">
 
-GitHub: [@inkosii](https://github.com/inkosii)
+| | |
+|---|---|
+| **Email** | snenkosi41@gmail.com |
+| **GitHub** | [@inkosii](https://github.com/inkosii) |
+| **LinkedIn** | Coming Soon |
+
+</p>
 
 ---
 
