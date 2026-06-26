@@ -33,7 +33,7 @@
 
 </div>
 
-I build systems that scale. Backend infrastructure, distributed architectures, and machine learning applications that solve real problems. At FNB, I contribute to enterprise Java development within the core infrastructure team. Outside of work, I research NLP for South African languages and design cloud systems.
+I enjoy designing and building backend systems, enterprise applications, and data-driven solutions that address real-world problems.
 
 This is where I document both sides of that work.
 
@@ -71,13 +71,13 @@ This is where I document both sides of that work.
 
 <div style="background: #f0f4ff; padding: 20px; border-radius: 8px; margin: 20px 0; border: 1px solid #667eea;">
 
-| Technology | Depth | Key Projects |
-|:-----------|:------|:------------|
-| **Java & Spring Boot** | Advanced | Cloud-Sim Bank, Enterprise microservices |
-| **Cloud Architecture** | Advanced | Docker, Kubernetes concepts, System design |
-| **NLP & Machine Learning** | Intermediate | Cross-Lingual Embeddings, Time-series forecasting |
-| **Data Engineering** | Intermediate | Streamlit dashboards, ETL pipelines, Analytics |
-| **Full-Stack Web** | Intermediate | SA Taxi Platform, Student Dashboard |
+| Area | Technologies & Concepts | Representative Projects |
+|:------|:-------------------------|:-------------------------|
+| **Java & Enterprise Development** | Java, Spring Boot, REST APIs, Enterprise Application Design | Cloud-Sim Bank, Enterprise Microservices |
+| **Cloud & Infrastructure** | Docker, API Gateways, Monitoring & Logging, Distributed Systems Concepts | Cloud-Sim Bank |
+| **Machine Learning & NLP** | FastText, Cross-Lingual Embeddings, Time-Series Forecasting, Model Evaluation | Cross-Lingual Embeddings, Electricity Demand Forecasting |
+| **Data & Analytics** | Python, Pandas, Power BI, Streamlit, Statistical Analysis | Demand Dashboard, Analytics Projects |
+| **Web Development** | HTML5, CSS3, JavaScript, Responsive Design | SA Taxi Platform, Student Dashboard |
 
 </div>
 
@@ -85,7 +85,7 @@ This is where I document both sides of that work.
 
 ## Currently Learning
 
-Working on expanding expertise in Kubernetes orchestration, advanced transformer-based NLP models, and cloud cost optimization strategies.
+Working on strengthening my understanding of enterprise software architecture, distributed systems, observability practices, and modern Java development while applying these concepts in a banking technology environment.
 
 ---
 
@@ -105,7 +105,7 @@ Working on expanding expertise in Kubernetes orchestration, advanced transformer
 
 **Repository:** [youth_cloud_banking_system](https://github.com/inkosii/youth_cloud_banking_system)
 
-A production-grade banking platform built to explore modern enterprise architecture. It demonstrates how distributed services communicate, how to monitor systems at scale, and how to structure code so teams can work independently.
+A microservices-based banking platform developed to explore modern enterprise architecture patterns. The project demonstrates service-to-service communication, API gateway integration, centralized monitoring, logging, and independent service deployment within a distributed system.
 
 **System Architecture:**
 
